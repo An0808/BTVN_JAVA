@@ -12,11 +12,9 @@ public class Main {
         {
             if(str.charAt(i) >= '0' && str.charAt(i) <= '9') {
                 dem++;
-                sum += (str.charAt(i) - '0');
             }
             if(dem!=0) {
                 System.out.println("Có " + dem + "ký tự số.");
-                System.out.println("Tích: " + (float)sum/dem);
             }
             else{
                 System.out.println("Không có ký tự số.");
